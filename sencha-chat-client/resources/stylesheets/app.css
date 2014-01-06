@@ -1,0 +1,60 @@
+/*
+Syntax error: File to import not found or unreadable: sencha-touch/default/all.
+              Load paths:
+                /opt/lampp/htdocs/test/sencha-touch-chat/resources/sass
+                /home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets
+                /home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets
+                Compass::SpriteImporter
+        on line 1 of /opt/lampp/htdocs/test/sencha-touch-chat/resources/sass/app.scss
+
+1: /opt/lampp/htdocs/test/sencha-touch-chat/resources/sass/app.scss
+
+Backtrace:
+/opt/lampp/htdocs/test/sencha-touch-chat/resources/sass/app.scss:1
+/usr/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/usr/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/import_node.rb:45:in `import'
+/usr/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/import_node.rb:28:in `imported_file'
+/usr/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/import_node.rb:37:in `css_import?'
+/usr/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+/usr/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `visit'
+/usr/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/usr/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/usr/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `map'
+/usr/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/usr/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/usr/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/usr/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/usr/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/usr/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/usr/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `visit'
+/usr/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/usr/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/usr/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/root_node.rb:20:in `render'
+/usr/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/engine.rb:315:in `_render'
+/usr/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/engine.rb:262:in `render'
+/home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+/home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+/home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/commands/update_project.rb:45:in `perform'
+/home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
+/home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/bin/compass:44:in `call'
+/home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
+/home/soto/.gem/ruby/2.0.0/bin/compass:23:in `load'
+/home/soto/.gem/ruby/2.0.0/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: sencha-touch/default/all.\A               Load paths:\A                 /opt/lampp/htdocs/test/sencha-touch-chat/resources/sass\A                 /home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /home/soto/.gem/ruby/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 1 of /opt/lampp/htdocs/test/sencha-touch-chat/resources/sass/app.scss\A \A 1: /opt/lampp/htdocs/test/sencha-touch-chat/resources/sass/app.scss"; }

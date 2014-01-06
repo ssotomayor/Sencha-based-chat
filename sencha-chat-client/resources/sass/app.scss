@@ -1,0 +1,73 @@
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+// You may remove any of the following modules that you
+// do not use in order to create a smaller css file.
+
+@import 'sencha-touch/default/src/Panel';
+@import 'sencha-touch/default/src/Button';
+@import 'sencha-touch/default/src/Toolbar';
+@import 'sencha-touch/default/src/MessageBox';
+
+@include sencha-button-ui('orange',#ff8000,'glossy');
+
+
+//right: -0.40em;
+//margin-top: -1.46em;
+
+.x-toolbar-dark{
+  background-color: #1468a2;
+  background-image: -webkit-linear-gradient(top, #434244, #1a1b1b 3%, #000000);
+  background-image: -moz-linear-gradient(top, #1e93e4,#1676b9 3%,#11598c);
+  background-image: -o-linear-gradient(top, #1e93e4,#1676b9 3%,#11598c);
+}
+
+.x-body, .x-dock-body{
+  background: '#000'
+}
+
+.x-toolbar {
+  border: none;
+  background: $baseColor;
+  .x-innerhtml {
+    color: white;
+    font-size: 16px;
+  }
+}
+
+.x-toolbar .x-field .x-clear-icon {
+  right: -0.40em;
+  margin-top: -1.46em;
+}
+
+
+.message {
+	white-space: normal; 
+	font-weight: normal;
+	text-align: left;
+	font-size: 80%;
+}
+
+.nick {
+	font-size: 70%; 
+	font-family: inconsolata,helvetica,sans-serif; 
+}
+
+.nick.local {
+	text-align: right;
+}
+
+.nick.remote {
+	text-align: left;
+}
+
+.x-button.local {
+	margin-left: 20%;
+}
+
+.x-button.remote {
+	margin-right: 20%;
+}
+
+.x-button.local p {
+	text-align: right;
+}

@@ -1,0 +1,298 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'socket.io' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.24
+4 verbose cache add [ 'socket.io', null ]
+5 verbose cache add name=undefined spec="socket.io" args=["socket.io",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'socket.io',
+6 verbose parsed url   path: 'socket.io',
+6 verbose parsed url   href: 'socket.io' }
+7 silly lockFile 71475bfd-socket-io socket.io
+8 verbose lock socket.io /home/soto/.npm/71475bfd-socket-io.lock
+9 silly lockFile 71475bfd-socket-io socket.io
+10 silly lockFile 71475bfd-socket-io socket.io
+11 verbose addNamed [ 'socket.io', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile c03de861-socket-io socket.io@
+14 verbose lock socket.io@ /home/soto/.npm/c03de861-socket-io.lock
+15 silly addNameRange { name: 'socket.io', range: '*', hasData: false }
+16 verbose url raw socket.io
+17 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+18 verbose url resolved https://registry.npmjs.org/socket.io
+19 info trying registry request attempt 1 at 00:51:18
+20 http GET https://registry.npmjs.org/socket.io
+21 http 200 https://registry.npmjs.org/socket.io
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Sun, 05 Jan 2014 03:51:19 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+22 silly registry.get     etag: '"54G9QIRXKLC69KFXYX7KD6KA"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'content-length': '230452',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '82482',
+22 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+22 silly registry.get     'x-cache': 'HIT',
+22 silly registry.get     'x-cache-hits': '1',
+22 silly registry.get     'x-timer': 'S1388893879.264825821,VS0,VE50',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'socket.io', range: '*', hasData: true }
+24 silly addNameRange versions [ 'socket.io',
+24 silly addNameRange   [ '0.3.8',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '0.5.1',
+24 silly addNameRange     '0.5.3',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.6.1',
+24 silly addNameRange     '0.6.3',
+24 silly addNameRange     '0.6.4',
+24 silly addNameRange     '0.6.5',
+24 silly addNameRange     '0.6.6',
+24 silly addNameRange     '0.6.7',
+24 silly addNameRange     '0.6.8',
+24 silly addNameRange     '0.6.9',
+24 silly addNameRange     '0.6.10',
+24 silly addNameRange     '0.6.11',
+24 silly addNameRange     '0.6.12',
+24 silly addNameRange     '0.6.14',
+24 silly addNameRange     '0.6.15',
+24 silly addNameRange     '0.6.16',
+24 silly addNameRange     '0.6.17',
+24 silly addNameRange     '0.6.18',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.7.1',
+24 silly addNameRange     '0.7.2',
+24 silly addNameRange     '0.7.3',
+24 silly addNameRange     '0.7.4',
+24 silly addNameRange     '0.7.5',
+24 silly addNameRange     '0.7.6',
+24 silly addNameRange     '0.7.7',
+24 silly addNameRange     '0.7.8',
+24 silly addNameRange     '0.7.9',
+24 silly addNameRange     '0.7.10',
+24 silly addNameRange     '0.7.11',
+24 silly addNameRange     '0.8.0',
+24 silly addNameRange     '0.8.1',
+24 silly addNameRange     '0.8.2',
+24 silly addNameRange     '0.8.3',
+24 silly addNameRange     '0.8.4',
+24 silly addNameRange     '0.8.5',
+24 silly addNameRange     '0.8.6',
+24 silly addNameRange     '0.8.7',
+24 silly addNameRange     '0.9.0',
+24 silly addNameRange     '0.9.1',
+24 silly addNameRange     '0.9.1-1',
+24 silly addNameRange     '0.9.2',
+24 silly addNameRange     '0.9.3',
+24 silly addNameRange     '0.9.4',
+24 silly addNameRange     '0.9.5',
+24 silly addNameRange     '0.9.6',
+24 silly addNameRange     '0.9.7',
+24 silly addNameRange     '0.9.8',
+24 silly addNameRange     '0.9.9',
+24 silly addNameRange     '0.9.10',
+24 silly addNameRange     '0.9.11',
+24 silly addNameRange     '0.9.12',
+24 silly addNameRange     '0.9.13',
+24 silly addNameRange     '0.9.14',
+24 silly addNameRange     '0.9.15',
+24 silly addNameRange     '0.9.16' ] ]
+25 verbose addNamed [ 'socket.io', '0.9.16' ]
+26 verbose addNamed [ '0.9.16', '0.9.16' ]
+27 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+28 verbose lock socket.io@0.9.16 /home/soto/.npm/a7acce22-socket-io-0-9-16.lock
+29 silly lockFile ca7568e4-g-socket-io-socket-io-0-9-16-tgz https://registry.npmjs.org/socket.io/-/socket.io-0.9.16.tgz
+30 verbose lock https://registry.npmjs.org/socket.io/-/socket.io-0.9.16.tgz /home/soto/.npm/ca7568e4-g-socket-io-socket-io-0-9-16-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket.io/-/socket.io-0.9.16.tgz',
+31 verbose addRemoteTarball   '3bab0444e49b55fbbc157424dbd41aa375a51a76' ]
+32 info retry fetch attempt 1 at 00:51:21
+33 verbose fetch to= /home/soto/tmp/npm-5226-S42UFliO/1388893881047-0.49505977472290397/tmp.tgz
+34 http GET https://registry.npmjs.org/socket.io/-/socket.io-0.9.16.tgz
+35 http 200 https://registry.npmjs.org/socket.io/-/socket.io-0.9.16.tgz
+36 verbose tar unpack /home/soto/tmp/npm-5226-S42UFliO/1388893881047-0.49505977472290397/tmp.tgz
+37 silly lockFile 3a4bcc27-1047-0-49505977472290397-package tar:///home/soto/tmp/npm-5226-S42UFliO/1388893881047-0.49505977472290397/package
+38 verbose lock tar:///home/soto/tmp/npm-5226-S42UFliO/1388893881047-0.49505977472290397/package /home/soto/.npm/3a4bcc27-1047-0-49505977472290397-package.lock
+39 silly lockFile de1ec40f-1047-0-49505977472290397-tmp-tgz tar:///home/soto/tmp/npm-5226-S42UFliO/1388893881047-0.49505977472290397/tmp.tgz
+40 verbose lock tar:///home/soto/tmp/npm-5226-S42UFliO/1388893881047-0.49505977472290397/tmp.tgz /home/soto/.npm/de1ec40f-1047-0-49505977472290397-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry LICENSE
+45 silly gunzTarPerm extractEntry index.js
+46 silly gunzTarPerm extractEntry .travis.yml
+47 silly gunzTarPerm extractEntry benchmarks/decode.bench.js
+48 silly gunzTarPerm extractEntry benchmarks/encode.bench.js
+49 silly gunzTarPerm extractEntry benchmarks/runner.js
+50 silly gunzTarPerm extractEntry History.md
+51 silly gunzTarPerm extractEntry lib/logger.js
+52 silly gunzTarPerm extractEntry lib/namespace.js
+53 silly gunzTarPerm extractEntry lib/parser.js
+54 silly gunzTarPerm extractEntry lib/socket.io.js
+55 silly gunzTarPerm extractEntry lib/socket.js
+56 silly gunzTarPerm extractEntry lib/manager.js
+57 silly gunzTarPerm extractEntry lib/store.js
+58 silly gunzTarPerm extractEntry lib/transport.js
+59 silly gunzTarPerm extractEntry lib/util.js
+60 silly gunzTarPerm extractEntry lib/static.js
+61 silly gunzTarPerm extractEntry lib/stores/memory.js
+62 silly gunzTarPerm extractEntry lib/stores/redis.js
+63 silly gunzTarPerm extractEntry lib/transports/flashsocket.js
+64 silly gunzTarPerm extractEntry lib/transports/htmlfile.js
+65 silly gunzTarPerm extractEntry lib/transports/http-polling.js
+66 silly gunzTarPerm extractEntry lib/transports/http.js
+67 silly gunzTarPerm extractEntry lib/transports/index.js
+68 silly gunzTarPerm extractEntry lib/transports/jsonp-polling.js
+69 silly gunzTarPerm extractEntry lib/transports/websocket.js
+70 silly gunzTarPerm extractEntry lib/transports/xhr-polling.js
+71 silly gunzTarPerm extractEntry lib/transports/websocket/default.js
+72 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-07-12.js
+73 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-16.js
+74 silly gunzTarPerm extractEntry lib/transports/websocket/index.js
+75 silly gunzTarPerm extractEntry Makefile
+76 silly gunzTarPerm extractEntry Readme.md
+77 silly lockFile 3a4bcc27-1047-0-49505977472290397-package tar:///home/soto/tmp/npm-5226-S42UFliO/1388893881047-0.49505977472290397/package
+78 silly lockFile 3a4bcc27-1047-0-49505977472290397-package tar:///home/soto/tmp/npm-5226-S42UFliO/1388893881047-0.49505977472290397/package
+79 silly lockFile de1ec40f-1047-0-49505977472290397-tmp-tgz tar:///home/soto/tmp/npm-5226-S42UFliO/1388893881047-0.49505977472290397/tmp.tgz
+80 silly lockFile de1ec40f-1047-0-49505977472290397-tmp-tgz tar:///home/soto/tmp/npm-5226-S42UFliO/1388893881047-0.49505977472290397/tmp.tgz
+81 verbose tar pack [ '/home/soto/.npm/socket.io/0.9.16/package.tgz',
+81 verbose tar pack   '/home/soto/tmp/npm-5226-S42UFliO/1388893881047-0.49505977472290397/package' ]
+82 verbose tarball /home/soto/.npm/socket.io/0.9.16/package.tgz
+83 verbose folder /home/soto/tmp/npm-5226-S42UFliO/1388893881047-0.49505977472290397/package
+84 silly lockFile 3a4bcc27-1047-0-49505977472290397-package tar:///home/soto/tmp/npm-5226-S42UFliO/1388893881047-0.49505977472290397/package
+85 verbose lock tar:///home/soto/tmp/npm-5226-S42UFliO/1388893881047-0.49505977472290397/package /home/soto/.npm/3a4bcc27-1047-0-49505977472290397-package.lock
+86 silly lockFile 1b776fec-npm-socket-io-0-9-16-package-tgz tar:///home/soto/.npm/socket.io/0.9.16/package.tgz
+87 verbose lock tar:///home/soto/.npm/socket.io/0.9.16/package.tgz /home/soto/.npm/1b776fec-npm-socket-io-0-9-16-package-tgz.lock
+88 silly lockFile 3a4bcc27-1047-0-49505977472290397-package tar:///home/soto/tmp/npm-5226-S42UFliO/1388893881047-0.49505977472290397/package
+89 silly lockFile 3a4bcc27-1047-0-49505977472290397-package tar:///home/soto/tmp/npm-5226-S42UFliO/1388893881047-0.49505977472290397/package
+90 silly lockFile 1b776fec-npm-socket-io-0-9-16-package-tgz tar:///home/soto/.npm/socket.io/0.9.16/package.tgz
+91 silly lockFile 1b776fec-npm-socket-io-0-9-16-package-tgz tar:///home/soto/.npm/socket.io/0.9.16/package.tgz
+92 silly lockFile c5939322-oto-npm-socket-io-0-9-16-package /home/soto/.npm/socket.io/0.9.16/package
+93 verbose lock /home/soto/.npm/socket.io/0.9.16/package /home/soto/.npm/c5939322-oto-npm-socket-io-0-9-16-package.lock
+94 silly lockFile c5939322-oto-npm-socket-io-0-9-16-package /home/soto/.npm/socket.io/0.9.16/package
+95 silly lockFile c5939322-oto-npm-socket-io-0-9-16-package /home/soto/.npm/socket.io/0.9.16/package
+96 verbose tar unpack /home/soto/.npm/socket.io/0.9.16/package.tgz
+97 silly lockFile 4b72a3ad-oto-npm-socket-io-0-9-16-package tar:///home/soto/.npm/socket.io/0.9.16/package
+98 verbose lock tar:///home/soto/.npm/socket.io/0.9.16/package /home/soto/.npm/4b72a3ad-oto-npm-socket-io-0-9-16-package.lock
+99 silly lockFile 1b776fec-npm-socket-io-0-9-16-package-tgz tar:///home/soto/.npm/socket.io/0.9.16/package.tgz
+100 verbose lock tar:///home/soto/.npm/socket.io/0.9.16/package.tgz /home/soto/.npm/1b776fec-npm-socket-io-0-9-16-package-tgz.lock
+101 silly gunzTarPerm modes [ '755', '644' ]
+102 silly gunzTarPerm extractEntry package.json
+103 silly gunzTarPerm extractEntry .npmignore
+104 silly gunzTarPerm extractEntry LICENSE
+105 silly gunzTarPerm extractEntry index.js
+106 silly gunzTarPerm extractEntry .travis.yml
+107 silly gunzTarPerm extractEntry History.md
+108 silly gunzTarPerm extractEntry Makefile
+109 silly gunzTarPerm extractEntry Readme.md
+110 silly gunzTarPerm extractEntry benchmarks/decode.bench.js
+111 silly gunzTarPerm extractEntry benchmarks/encode.bench.js
+112 silly gunzTarPerm extractEntry benchmarks/runner.js
+113 silly gunzTarPerm extractEntry lib/logger.js
+114 silly gunzTarPerm extractEntry lib/namespace.js
+115 silly gunzTarPerm extractEntry lib/parser.js
+116 silly gunzTarPerm extractEntry lib/socket.io.js
+117 silly gunzTarPerm extractEntry lib/socket.js
+118 silly gunzTarPerm extractEntry lib/manager.js
+119 silly gunzTarPerm extractEntry lib/store.js
+120 silly gunzTarPerm extractEntry lib/transport.js
+121 silly gunzTarPerm extractEntry lib/util.js
+122 silly gunzTarPerm extractEntry lib/static.js
+123 silly gunzTarPerm extractEntry lib/stores/memory.js
+124 silly gunzTarPerm extractEntry lib/stores/redis.js
+125 silly gunzTarPerm extractEntry lib/transports/flashsocket.js
+126 silly gunzTarPerm extractEntry lib/transports/htmlfile.js
+127 silly gunzTarPerm extractEntry lib/transports/http-polling.js
+128 silly gunzTarPerm extractEntry lib/transports/http.js
+129 silly gunzTarPerm extractEntry lib/transports/index.js
+130 silly gunzTarPerm extractEntry lib/transports/jsonp-polling.js
+131 silly gunzTarPerm extractEntry lib/transports/websocket.js
+132 silly gunzTarPerm extractEntry lib/transports/xhr-polling.js
+133 silly gunzTarPerm extractEntry lib/transports/websocket/default.js
+134 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-07-12.js
+135 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-16.js
+136 silly gunzTarPerm extractEntry lib/transports/websocket/index.js
+137 silly lockFile 4b72a3ad-oto-npm-socket-io-0-9-16-package tar:///home/soto/.npm/socket.io/0.9.16/package
+138 silly lockFile 4b72a3ad-oto-npm-socket-io-0-9-16-package tar:///home/soto/.npm/socket.io/0.9.16/package
+139 silly lockFile 1b776fec-npm-socket-io-0-9-16-package-tgz tar:///home/soto/.npm/socket.io/0.9.16/package.tgz
+140 silly lockFile 1b776fec-npm-socket-io-0-9-16-package-tgz tar:///home/soto/.npm/socket.io/0.9.16/package.tgz
+141 verbose chmod /home/soto/.npm/socket.io/0.9.16/package.tgz 644
+142 verbose chown /home/soto/.npm/socket.io/0.9.16/package.tgz [ 1000, 100 ]
+143 silly lockFile ca7568e4-g-socket-io-socket-io-0-9-16-tgz https://registry.npmjs.org/socket.io/-/socket.io-0.9.16.tgz
+144 silly lockFile ca7568e4-g-socket-io-socket-io-0-9-16-tgz https://registry.npmjs.org/socket.io/-/socket.io-0.9.16.tgz
+145 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+146 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+147 silly lockFile c03de861-socket-io socket.io@
+148 silly lockFile c03de861-socket-io socket.io@
+149 silly resolved [ { name: 'socket.io',
+149 silly resolved     version: '0.9.16',
+149 silly resolved     description: 'Real-time apps made cross-browser & easy with a WebSocket-like API',
+149 silly resolved     homepage: 'http://socket.io',
+149 silly resolved     keywords: [ 'websocket', 'socket', 'realtime', 'socket.io', 'comet', 'ajax' ],
+149 silly resolved     author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+149 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+149 silly resolved     repository:
+149 silly resolved      { type: 'git',
+149 silly resolved        url: 'https://github.com/LearnBoost/socket.io.git' },
+149 silly resolved     dependencies:
+149 silly resolved      { 'socket.io-client': '0.9.16',
+149 silly resolved        policyfile: '0.0.4',
+149 silly resolved        base64id: '0.1.0',
+149 silly resolved        redis: '0.7.3' },
+149 silly resolved     devDependencies:
+149 silly resolved      { expresso: '0.9.2',
+149 silly resolved        should: '*',
+149 silly resolved        benchmark: '0.2.2',
+149 silly resolved        microtime: '0.1.3-1',
+149 silly resolved        colors: '0.5.1' },
+149 silly resolved     optionalDependencies: { redis: '0.7.3' },
+149 silly resolved     main: 'index',
+149 silly resolved     engines: { node: '>= 0.4.0' },
+149 silly resolved     scripts: { test: 'make test' },
+149 silly resolved     readme: '# Socket.IO\n\nSocket.IO is a Node.JS project that makes WebSockets and realtime possible in\nall browsers. It also enhances WebSockets by providing built-in multiplexing,\nhorizontal scalability, automatic JSON encoding/decoding, and more.\n\n## How to Install\n\n```bash\nnpm install socket.io\n```\n\n## How to use\n\nFirst, require `socket.io`:\n\n```js\nvar io = require(\'socket.io\');\n```\n\nNext, attach it to a HTTP/HTTPS server. If you\'re using the fantastic `express`\nweb framework:\n\n#### Express 3.x\n\n```js\nvar app = express()\n  , server = require(\'http\').createServer(app)\n  , io = io.listen(server);\n\nserver.listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.emit(\'news\', { hello: \'world\' });\n  socket.on(\'my other event\', function (data) {\n    console.log(data);\n  });\n});\n```\n\n#### Express 2.x\n\n```js\nvar app = express.createServer()\n  , io = io.listen(app);\n\napp.listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.emit(\'news\', { hello: \'world\' });\n  socket.on(\'my other event\', function (data) {\n    console.log(data);\n  });\n});\n```\n\nFinally, load it from the client side code:\n\n```html\n<script src="/socket.io/socket.io.js"></script>\n<script>\n  var socket = io.connect(\'http://localhost\');\n  socket.on(\'news\', function (data) {\n    console.log(data);\n    socket.emit(\'my other event\', { my: \'data\' });\n  });\n</script>\n```\n\nFor more thorough examples, look at the `examples/` directory.\n\n## Short recipes\n\n### Sending and receiving events.\n\nSocket.IO allows you to emit and receive custom events.\nBesides `connect`, `message` and `disconnect`, you can emit custom events:\n\n```js\n// note, io.listen(<port>) will create a http server for you\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  io.sockets.emit(\'this\', { will: \'be received by everyone\' });\n\n  socket.on(\'private message\', function (from, msg) {\n    console.log(\'I received a private message by \', from, \' saying \', msg);\n  });\n\n  socket.on(\'disconnect\', function () {\n    io.sockets.emit(\'user disconnected\');\n  });\n});\n```\n\n### Storing data associated to a client\n\nSometimes it\'s necessary to store data associated with a client that\'s\nnecessary for the duration of the session.\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.on(\'set nickname\', function (name) {\n    socket.set(\'nickname\', name, function () { socket.emit(\'ready\'); });\n  });\n\n  socket.on(\'msg\', function () {\n    socket.get(\'nickname\', function (err, name) {\n      console.log(\'Chat message by \', name);\n    });\n  });\n});\n```\n\n#### Client side\n\n```html\n<script>\n  var socket = io.connect(\'http://localhost\');\n\n  socket.on(\'connect\', function () {\n    socket.emit(\'set nickname\', prompt(\'What is your nickname?\'));\n    socket.on(\'ready\', function () {\n      console.log(\'Connected !\');\n      socket.emit(\'msg\', prompt(\'What is your message?\'));\n    });\n  });\n</script>\n```\n\n### Restricting yourself to a namespace\n\nIf you have control over all the messages and events emitted for a particular\napplication, using the default `/` namespace works.\n\nIf you want to leverage 3rd-party code, or produce code to share with others,\nsocket.io provides a way of namespacing a `socket`.\n\nThis has the benefit of `multiplexing` a single connection. Instead of\nsocket.io using two `WebSocket` connections, it\'ll use one.\n\nThe following example defines a socket that listens on \'/chat\' and one for\n\'/news\':\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nvar chat = io\n  .of(\'/chat\')\n  .on(\'connection\', function (socket) {\n    socket.emit(\'a message\', { that: \'only\', \'/chat\': \'will get\' });\n    chat.emit(\'a message\', { everyone: \'in\', \'/chat\': \'will get\' });\n  });\n\nvar news = io\n  .of(\'/news\');\n  .on(\'connection\', function (socket) {\n    socket.emit(\'item\', { news: \'item\' });\n  });\n```\n\n#### Client side:\n\n```html\n<script>\n  var chat = io.connect(\'http://localhost/chat\')\n    , news = io.connect(\'http://localhost/news\');\n\n  chat.on(\'connect\', function () {\n    chat.emit(\'hi!\');\n  });\n\n  news.on(\'news\', function () {\n    news.emit(\'woot\');\n  });\n</script>\n```\n\n### Sending volatile messages.\n\nSometimes certain messages can be dropped. Let\'s say you have an app that\nshows realtime tweets for the keyword `bieber`. \n\nIf a certain client is not ready to receive messages (because of network slowness\nor other issues, or because he\'s connected through long polling and is in the\nmiddle of a request-response cycle), if he doesn\'t receive ALL the tweets related\nto bieber your application won\'t suffer.\n\nIn that case, you might want to send those messages as volatile messages.\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  var tweets = setInterval(function () {\n    getBieberTweet(function (tweet) {\n      socket.volatile.emit(\'bieber tweet\', tweet);\n    });\n  }, 100);\n\n  socket.on(\'disconnect\', function () {\n    clearInterval(tweets);\n  });\n});\n```\n\n#### Client side\n\nIn the client side, messages are received the same way whether they\'re volatile\nor not.\n\n### Getting acknowledgements\n\nSometimes, you might want to get a callback when the client confirmed the message\nreception.\n\nTo do this, simply pass a function as the last parameter of `.send` or `.emit`.\nWhat\'s more, when you use `.emit`, the acknowledgement is done by you, which\nmeans you can also pass data along:\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.on(\'ferret\', function (name, fn) {\n    fn(\'woot\');\n  });\n});\n```\n\n#### Client side\n\n```html\n<script>\n  var socket = io.connect(); // TIP: .connect with no args does auto-discovery\n  socket.on(\'connect\', function () { // TIP: you can avoid listening on `connect` and listen on events directly too!\n    socket.emit(\'ferret\', \'tobi\', function (data) {\n      console.log(data); // data will be \'woot\'\n    });\n  });\n</script>\n```\n\n### Broadcasting messages\n\nTo broadcast, simply add a `broadcast` flag to `emit` and `send` method calls.\nBroadcasting means sending a message to everyone else except for the socket\nthat starts it.\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.broadcast.emit(\'user connected\');\n  socket.broadcast.json.send({ a: \'message\' });\n});\n```\n\n### Rooms\n\nSometimes you want to put certain sockets in the same room, so that it\'s easy\nto broadcast to all of them together.\n\nThink of this as built-in channels for sockets. Sockets `join` and `leave`\nrooms in each socket.\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.join(\'justin bieber fans\');\n  socket.broadcast.to(\'justin bieber fans\').emit(\'new fan\');\n  io.sockets.in(\'rammstein fans\').emit(\'new non-fan\');\n});\n```\n\n### Using it just as a cross-browser WebSocket\n\nIf you just want the WebSocket semantics, you can do that too.\nSimply leverage `send` and listen on the `message` event:\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.on(\'message\', function () { });\n  socket.on(\'disconnect\', function () { });\n});\n```\n\n#### Client side\n\n```html\n<script>\n  var socket = io.connect(\'http://localhost/\');\n  socket.on(\'connect\', function () {\n    socket.send(\'hi\');\n\n    socket.on(\'message\', function (msg) {\n      // my msg\n    });\n  });\n</script>\n```\n\n### Changing configuration\n\nConfiguration in socket.io is TJ-style:\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.configure(function () {\n  io.set(\'transports\', [\'websocket\', \'flashsocket\', \'xhr-polling\']);\n});\n\nio.configure(\'development\', function () {\n  io.set(\'transports\', [\'websocket\', \'xhr-polling\']);\n  io.enable(\'log\');\n});\n```\n\n## License \n\n(The MIT License)\n\nCopyright (c) 2011 Guillermo Rauch &lt;guillermo@learnboost.com&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+149 silly resolved     readmeFilename: 'Readme.md',
+149 silly resolved     bugs: { url: 'https://github.com/LearnBoost/socket.io/issues' },
+149 silly resolved     _id: 'socket.io@0.9.16',
+149 silly resolved     dist: { shasum: '9b6937ef4e052cc6184366434fc1d2ac46a74f86' },
+149 silly resolved     _from: 'socket.io@',
+149 silly resolved     _resolved: 'https://registry.npmjs.org/socket.io/-/socket.io-0.9.16.tgz' } ]
+150 info install socket.io@0.9.16 into /opt/lampp/htdocs/test/sencha-touch-chat/nodejs
+151 info installOne socket.io@0.9.16
+152 info /opt/lampp/htdocs/test/sencha-touch-chat/nodejs/node_modules/socket.io unbuild
+153 info preuninstall socket.io@0.9.16
+154 info uninstall socket.io@0.9.16
+155 verbose true,/opt/lampp/htdocs/test/sencha-touch-chat/nodejs/node_modules,/opt/lampp/htdocs/test/sencha-touch-chat/nodejs/node_modules unbuild socket.io@0.9.16
+156 info postuninstall socket.io@0.9.16
+157 info /opt/lampp/htdocs/test/sencha-touch-chat/nodejs/node_modules/socket.io unbuild
+158 error error rolling back Error: EACCES, unlink '/opt/lampp/htdocs/test/sencha-touch-chat/nodejs/node_modules/socket.io/node_modules/socket.io-client/node_modules/.bin/uglifyjs'
+158 error error rolling back  socket.io@0.9.16 { [Error: EACCES, unlink '/opt/lampp/htdocs/test/sencha-touch-chat/nodejs/node_modules/socket.io/node_modules/socket.io-client/node_modules/.bin/uglifyjs']
+158 error error rolling back   errno: 3,
+158 error error rolling back   code: 'EACCES',
+158 error error rolling back   path: '/opt/lampp/htdocs/test/sencha-touch-chat/nodejs/node_modules/socket.io/node_modules/socket.io-client/node_modules/.bin/uglifyjs' }
+159 error Error: EACCES, unlink '/opt/lampp/htdocs/test/sencha-touch-chat/nodejs/node_modules/socket.io/node_modules/socket.io-client/node_modules/.bin/uglifyjs'
+159 error  { [Error: EACCES, unlink '/opt/lampp/htdocs/test/sencha-touch-chat/nodejs/node_modules/socket.io/node_modules/socket.io-client/node_modules/.bin/uglifyjs']
+159 error   errno: 3,
+159 error   code: 'EACCES',
+159 error   path: '/opt/lampp/htdocs/test/sencha-touch-chat/nodejs/node_modules/socket.io/node_modules/socket.io-client/node_modules/.bin/uglifyjs' }
+160 error Please try running this command again as root/Administrator.
+161 error System Linux 3.12.6-1-ARCH
+162 error command "/usr/bin/node" "/usr/bin/npm" "install" "socket.io"
+163 error cwd /opt/lampp/htdocs/test/sencha-touch-chat/nodejs
+164 error node -v v0.10.24
+165 error npm -v 1.3.21
+166 error path /opt/lampp/htdocs/test/sencha-touch-chat/nodejs/node_modules/socket.io/node_modules/socket.io-client/node_modules/.bin/uglifyjs
+167 error code EACCES
+168 error errno 3
+169 error stack Error: EACCES, unlink '/opt/lampp/htdocs/test/sencha-touch-chat/nodejs/node_modules/socket.io/node_modules/socket.io-client/node_modules/.bin/uglifyjs'
+170 verbose exit [ 3, true ]

@@ -1,0 +1,30 @@
+.message {
+	white-space: normal; 
+	font-weight: normal;
+	text-align: left;
+}
+
+.nick {
+	font-size: 80%; 
+	font-family: inconsolata,helvetica,sans-serif; 
+}
+
+.nick.local {
+	text-align: right;
+}
+
+.nick.remote {
+	text-align: left;
+}
+
+.x-button.local {
+	margin-left: 20%;
+}
+
+.x-button.remote {
+	margin-right: 20%;
+}
+
+.x-button.local p {
+	text-align: right;
+}
